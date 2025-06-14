@@ -1,0 +1,34 @@
+{
+  "users": [
+    {
+      "username": "admin",
+      "password": "1234",
+      "role": "admin",
+      "redirect": "../html/admin.html"
+    },
+    {
+      "username": "usuario",
+      "password": "1234",
+      "role": "user",
+      "redirect": "../html/usuario.html"
+    },
+    {
+      "username": "Luis",
+      "password": "4321",
+      "role": "admin",
+      "redirect": "../html/admin.html"
+    },
+    {
+      "username": "Maria",
+      "password": "abcd",
+      "role": "user",
+      "redirect": "../html/usuario.html"
+    },
+    {
+      "username": "Fernanda",
+      "password": "f3rn4nd4",
+      "role": "user",
+      "redirect": "../html/usuario.html"
+    }
+  ]
+}

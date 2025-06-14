@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IUB-maps - Login</title>
+    <link rel="stylesheet" href="../css/forms.css">
+</head>
+<body>
+    <header class="header"><center>
+        <a href="#" class="logo"><img src="../img/logo.svg" alt="Logo" width="140"></a>
+        <input type="checkbox" id="slide-menu" class="slide-menu">
+       </center>
+    </header>
+    
+    <div class="login-container">
+        <form id="loginForm">
+            <div>
+                <center><h1>Login</h1></center>
+                <label for="usuario">Usuario</label><br>
+                <input type="text" id="usuario" name="usuario" placeholder="Ingrese Usuario" required><br>
+                
+                <label for="contraseña">Contraseña</label><br>
+                <input type="password" id="contraseña" name="contraseña" placeholder="Ingrese Contraseña" required><br>
+                
+                <input type="button" id="btn1" value="Ingresar" onclick="login(event)">
+                <input type="button" value="Limpiar" onclick="limpiar()">
+                
+                <div id="txtres"></div> <!-- Mensajes de error/éxito -->
+            </div>
+        </form>
+    </div>
+   
+    <footer>
+        <footer><h3><center>©JOHAN Beleño</center></h3></footer>
+    </footer>
+
+    <script src="../js/login.js"></script>
+</body>
+</html>
